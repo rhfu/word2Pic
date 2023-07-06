@@ -6,9 +6,13 @@
 - go mod vendor
 - go run main.go
 
+![img](dst.png)
+
 ## 2 重叠效果 效果：dst-2.png
 
 - go run main-2.go
+
+![img](dst-2.png)
 
 ### 来源
 
