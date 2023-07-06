@@ -60,12 +60,12 @@ func writeWord2Pic(newTemplateImage *image.RGBA) {
 	content.SetDPI(50)          // 设置字体分辨率
 	content.SetFontSize(100)  // 设置字体大小
 	content.SetFont(yh) // 设置字体样式，就是我们上面加载的字体
-	content.DrawString("第一单元厚重的和谐文化", freetype.Pt(100, 350))
+	content.DrawString("第一单元厚重的和谐文化", freetype.Pt(100, 175))
 
 	content.SetDPI(50) 
 	content.SetFontSize(100)  // 设置字体大小
 	content.SetSrc(image.White) // 设置字体颜色
-	content.DrawString("第一单元厚重的和谐文化", freetype.Pt(93, 345))
+	content.DrawString("第一单元厚重的和谐文化", freetype.Pt(93, 165))
 }
 
 // 根据路径加载字体文件
