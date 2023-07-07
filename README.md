@@ -1,5 +1,7 @@
 # golang 文字转图片 艺术字生成 两个图片叠加
 
+- gofmt -w *.go
+
 ## 1 文字贴图 图片叠加 效果：dst.png
 
 - go mod tidy
@@ -17,3 +19,4 @@
 ### 来源
 
 - https://blog.csdn.net/qq_40585384/article/details/124762939
+- https://fonts.google.com/
